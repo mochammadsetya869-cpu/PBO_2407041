@@ -5,7 +5,6 @@ class Cafe {
     int harga;
     String tipe;
 
-    // Constructor
     Cafe(String namaMinuman, int harga, String tipe) {
         this.namaMinuman = namaMinuman;
         this.harga = harga;
@@ -21,6 +20,7 @@ class Cafe {
 
 public class Main {
     public static void main(String[] args) {
+
         Cafe minuman1 = new Cafe("Americano", 15000, "Panas");
         Cafe minuman2 = new Cafe("Cappuccino", 20000, "Dingin");
 
