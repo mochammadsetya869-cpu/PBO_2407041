@@ -1,6 +1,6 @@
 package tugaskelompok;
 
-public class inuman {
+public class minuman {
     
 }
 class Minuman extends Menu {

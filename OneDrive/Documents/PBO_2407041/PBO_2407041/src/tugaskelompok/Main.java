@@ -11,7 +11,7 @@ public class Main {
         // Polymorphism
         Menu m1 = new Makanan("Nasi Goreng", 15000, "Berat");
         Menu m2 = new Minuman("Es Teh", 5000, "Medium");
-        Menu m3 = new Minuman("Kopi", 10000, "Large");
+        Menu m3 = new Minuman("Es Jeruk", 10000, "Large");
 
         cafe.tambahMenu(m1);
         cafe.tambahMenu(m2);
