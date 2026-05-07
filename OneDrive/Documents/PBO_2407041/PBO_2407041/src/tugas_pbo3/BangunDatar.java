@@ -1,6 +1,6 @@
 package tugas_pbo3;
 
-public class BangunDatar {
+public abstract class BangunDatar {
     private double varA;
     private double varB;
 
@@ -21,9 +21,7 @@ public class BangunDatar {
         return varB;
     }
 
-    public double hitungLuas() {
-        return 0;
-    }
+    public abstract double hitungLuas();
 
     public void tampilkan() {
         System.out.println("Luas: " + hitungLuas());
