@@ -1,9 +1,6 @@
 package tugaskelompok;
 
-public class menu {
-    
-}
-class Menu {
+public class Menu {
     private String nama;
     private int harga;
 

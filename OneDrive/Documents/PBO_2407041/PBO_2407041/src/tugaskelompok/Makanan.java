@@ -1,9 +1,7 @@
 package tugaskelompok;
 
-public class makanan {
-    
-}
-class Makanan extends Menu {
+
+public  class Makanan extends Menu {
     private String jenis;
 
     public Makanan(String nama, int harga, String jenis) {

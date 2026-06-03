@@ -1,31 +1,33 @@
 package latihan1_pbo;
 
 class Cafe {
-    String namaMinuman;
-    int harga;
-    String tipe;
+    String nama;
+    String alamat;
 
-    Cafe(String namaMinuman, int harga, String tipe) {
-        this.namaMinuman = namaMinuman;
-        this.harga = harga;
-        this.tipe = tipe;
+    // constructor
+    Cafe(String nama, String alamat) {
+        this.nama = nama;
+        this.alamat = alamat;
     }
 
-    void tampilkanInfo() {
-        System.out.println("Nama Minuman : " + namaMinuman);
-        System.out.println("Harga        : Rp " + harga);
-        System.out.println("Tipe         : " + tipe);
+    void buka() {
+        System.out.println(nama + " Sudah Buka di " + alamat);
+    }
+    void tutup() {
+        System.out.println(nama + " Sudah Tutup di " + alamat);
     }
 }
 
 public class Main {
     public static void main(String[] args) {
 
-        Cafe minuman1 = new Cafe("Americano", 15000, "Panas");
-        Cafe minuman2 = new Cafe("Cappuccino", 20000, "Dingin");
+        Cafe cafe1 = new Cafe("Halaman", "Indramayu");
+        cafe1.buka();
 
-        minuman1.tampilkanInfo();
-        System.out.println("--------------------");
-        minuman2.tampilkanInfo();
+        Cafe cafe2 = new Cafe("Teringat", "Indramayu");
+        cafe2.tutup();
+
+        Cafe cafe3 = new Cafe("Kopken", "Indramayu");
+        cafe3.buka();
     }
 }
